@@ -46,7 +46,7 @@ object EnhancedMain extends App {
   val item = ddb.getItem(
     GetItemRequest.builder()
       .tableName(TableName)
-      .key[NewYear](_.year, 2020)
+      .key[NewYear](_.year, 2021)
       .build()
   )
   

@@ -49,7 +49,7 @@ object Main extends App {
     GetItemRequest.builder()
       .tableName(TableName)
       .key(Map(
-        "year" -> AttributeValue.builder().n("2020").build()
+        "year" -> AttributeValue.builder().n("2021").build()
       ).asJava)
       .build()
   )
